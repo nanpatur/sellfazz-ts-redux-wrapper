@@ -6,8 +6,6 @@ import { EpicMethod, PayloadedReduceMethod, makePayloadedAction, PayloadedReduce
 import { FuncArgs, Dict } from "sellfazz-ts-generic";
 import { AnyAction } from "redux";
 
-/* tslint:disable */
-
 // export function generateEpicByNames<Payload, RootState = any>(actionNames: string[], func: EpicMethod<Payload, RootState>): SfEpic[] {
 //   return actionNames.map((actionName) => generateEpicByName(actionName, func));
 // }

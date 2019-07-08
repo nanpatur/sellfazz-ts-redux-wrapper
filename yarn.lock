@@ -3121,14 +3121,7 @@ rxjs-compat@^6.5.2:
   resolved "http://ec2-18-136-213-228.ap-southeast-1.compute.amazonaws.com:4873/rxjs-compat/-/rxjs-compat-6.5.2.tgz#e469070adf6260bdad195e9d4a39f444ae28b458"
   integrity sha512-TRMkTp4FgSxE2HtGvxmgRukh3JqdFM7ejAj1Ti/VdodbPGfWvZR5+KdLKRV9jVDFyu2SknM8RD+PR54KGnoLjg==
 
-rxjs@^6.3.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.2.tgz#2e35ce815cd46d84d02a209fb4e5921e051dbec7"
-  integrity sha512-HUb7j3kvb7p7eCUHE3FqjoDsC1xfZQ4AHFWfTKSpZ+sAhhz5X1WX0ZuUqWbzB2QhSLp3DoLUG+hMdEDKqWo2Zg==
-  dependencies:
-    tslib "^1.9.0"
-
-rxjs@^6.5.2:
+rxjs@^6.3.2, rxjs@^6.5.2:
   version "6.5.2"
   resolved "http://ec2-18-136-213-228.ap-southeast-1.compute.amazonaws.com:4873/rxjs/-/rxjs-6.5.2.tgz#2e35ce815cd46d84d02a209fb4e5921e051dbec7"
   integrity sha512-HUb7j3kvb7p7eCUHE3FqjoDsC1xfZQ4AHFWfTKSpZ+sAhhz5X1WX0ZuUqWbzB2QhSLp3DoLUG+hMdEDKqWo2Zg==
@@ -3173,15 +3166,15 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-sellfazz-ts-daos@^0.1.37:
-  version "0.1.37"
-  resolved "http://ec2-18-136-213-228.ap-southeast-1.compute.amazonaws.com:4873/sellfazz-ts-daos/-/sellfazz-ts-daos-0.1.37.tgz#bddc7d16542747a188b1682382cd663351eca662"
-  integrity sha512-wE2V/m9/4nMOXAy2SrHyb8HtpA4OUILQnOQzvGP+y+mYEwo7D55TOligfAQme4Vvb+zbmxCHkeVVz+ENuN7Rug==
+sellfazz-ts-daos@^0.2.2:
+  version "0.2.2"
+  resolved "http://ec2-18-136-213-228.ap-southeast-1.compute.amazonaws.com:4873/sellfazz-ts-daos/-/sellfazz-ts-daos-0.2.2.tgz#d2dbdca8e1b25f3d3d8021a0814251e98355fee2"
+  integrity sha512-c1tA1AzNYr/pUqOxKGAPNaMWBag2vJe2G2z540g3iZ2ssE4jCTh4KOgoVUSB71cGNhdd4MZ93rSkJCtgOJ4kvA==
 
-sellfazz-ts-generic@^0.1.13:
-  version "0.1.13"
-  resolved "http://ec2-18-136-213-228.ap-southeast-1.compute.amazonaws.com:4873/sellfazz-ts-generic/-/sellfazz-ts-generic-0.1.13.tgz#040317a06b816a76e796e0912815c64dc9ef32dc"
-  integrity sha512-Eqx7KaX2lwdKw6VgY2bVL1yyqeMKq7owkhx6CELBHtLYnd0hML5ciO1slzvKGWtrJrb3xsBA/Ogdn7mrW8bKVw==
+sellfazz-ts-generic@^0.1.26:
+  version "0.1.26"
+  resolved "http://ec2-18-136-213-228.ap-southeast-1.compute.amazonaws.com:4873/sellfazz-ts-generic/-/sellfazz-ts-generic-0.1.26.tgz#386889969a960e6d20cbf628d9575a7bd85741b6"
+  integrity sha512-aEsn6rW7xtejS+gKjYFmp3agWp7VXRGUfUvVICa4oJeotb3h9NrRQZ8UnFWa0CrlfJ27/f74mbd/qR9ofgopww==
   dependencies:
     atob "^2.1.2"
     base-64 "^0.1.0"

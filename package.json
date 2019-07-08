@@ -11,7 +11,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "redep": "yarn add sellfazz-ts-daos sellfazz-ts-generic",
-    "pub": "yarn build; yarn publish",
+    "pub": "yarn build; npm login; npm publish",
     "push": "git add .; git commit -m \"git push\"; git push;"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "redux-thunk": "^2.3.0",
     "rxjs": "^6.5.2",
     "rxjs-compat": "^6.5.2",
-    "sellfazz-ts-daos": "^0.1.37",
-    "sellfazz-ts-generic": "^0.1.13"
+    "sellfazz-ts-daos": "^0.2.2",
+    "sellfazz-ts-generic": "^0.1.26"
   }
 }
