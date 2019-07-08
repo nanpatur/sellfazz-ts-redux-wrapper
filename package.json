@@ -11,7 +11,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "redep": "yarn add sellfazz-ts-daos sellfazz-ts-generic",
-    "pub": "yarn build; npm login; npm publish",
+    "pub": "npm publish; git push",
     "push": "git add .; git commit -m \"git push\"; git push;"
   },
   "devDependencies": {
