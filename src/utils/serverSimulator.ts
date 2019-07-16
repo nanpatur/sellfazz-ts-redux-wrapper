@@ -1,6 +1,5 @@
-import { IdentifiedModel } from "sellfazz-ts-daos";
 import { generateId } from "../reducer/listReducerPackageGenerator";
-import { Dict, Indexer } from 'sellfazz-ts-generic'
+import { Dict, Indexer, IdentifiedModel } from "../reducer";
 
 export function delay(timeout: number) {
   return new Promise((res) => {

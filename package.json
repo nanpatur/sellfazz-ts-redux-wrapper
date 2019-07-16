@@ -10,7 +10,6 @@
     "build": "rm -rf dist; tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "redep": "yarn add sellfazz-ts-daos sellfazz-ts-generic",
     "pub": "npm publish; git push",
     "push": "git add .; git commit -m \"git push\"; git push;"
   },

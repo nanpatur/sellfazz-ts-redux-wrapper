@@ -1,7 +1,7 @@
 import { AnyAction, Reducer, Dispatch } from "redux";
-import { AsyncFuncArgs, Combiner, FuncArgs } from "sellfazz-ts-generic";
 import { StateObservable, Epic } from "redux-observable";
 import { ThunkAction } from "redux-thunk";
+import { Combiner, AsyncFuncArgs, FuncArgs } from "./utils";
 
 export interface PayloadedAction<Payload=any> extends AnyAction {
   payload: Payload

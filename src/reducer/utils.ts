@@ -16,6 +16,24 @@ export type ReducerPackagesForState<State extends Dict<any>> = {
   [K in keyof State]: ReducerPackage<State[K]>
 }
 
+export interface FuncArgs<Ts extends any[], TOut=any> {
+  (...args: Ts): TOut
+}
+export type AsyncFuncArgs<Ts extends any[], TOut=any> = FuncArgs<Ts, Promise<TOut>>;
+export type Combiner<Source, AdditionalSource, Target=Source> = FuncArgs<[Source, AdditionalSource],Target>
+
+export type Nullable<T> = T | null;
+export type NullableDict<T> = Dict<Nullable<T>>;
+export type Dict<T> = Record<string, T>;
+export type Indexer<T> = FuncArgs<[T],string>
+export interface KeyValue<T>{
+  key: string;
+  value: T;
+}
+
+export interface IdentifiedModel {
+  id?: string;
+}
 
 export function generateActionCreators<ActionCreators extends ReduxActionCreatorsDict>(generators: ReducerGeneratorsForActionCreators<ActionCreators>): ActionCreators {
   let actionCreators: Dict<ReduxActionCreators> = {};
