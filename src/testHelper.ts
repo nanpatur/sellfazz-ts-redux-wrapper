@@ -1,7 +1,5 @@
 // import { RequestConfig, WithAccessToken, ServerConnectionRequests } from "./api/serverConnection";
-import { Token, IdentifiedModel } from "sellfazz-ts-daos";
-import { ListDescription, Dict, NullableDict, FuncArgs,} from 'sellfazz-ts-generic'
-import { CachedListState, SuccessfulPayload } from "./reducer";
+import { CachedListState, SuccessfulPayload, NullableDict, FuncArgs, Dict, IdentifiedModel } from "./reducer";
 import { Store } from "redux";
 import { PayloadedAction } from './reducer/common'
 // import { IOfflineStorageManager } from "./api/offlineStorage";

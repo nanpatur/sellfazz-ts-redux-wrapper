@@ -3,8 +3,8 @@ import { mergeMap } from 'rxjs/operators';
 import { of } from 'rxjs';
 import { fromPromise } from 'rxjs/observable/fromPromise';
 import { EpicMethod, PayloadedReduceMethod, makePayloadedAction, PayloadedReducer, PayloadedAction, PayloadedActionCreator, SimplePayloadedActionCreator, SfEpic } from "./common";
-import { FuncArgs, Dict } from "sellfazz-ts-generic";
 import { AnyAction } from "redux";
+import { Dict, FuncArgs } from "./utils";
 
 // export function generateEpicByNames<Payload, RootState = any>(actionNames: string[], func: EpicMethod<Payload, RootState>): SfEpic[] {
 //   return actionNames.map((actionName) => generateEpicByName(actionName, func));

@@ -1,6 +1,6 @@
-import { Dict } from 'sellfazz-ts-generic';
 import { ActionPackage, } from './actionPackage';
 import { ByPassReduceMethod, PayloadedReduceMethod, PayloadedAction, EpicMethod, PayloadedActionCreator, PayloadedReducer, PromisedThunkActionCreator, SimplePayloadedActionCreator, Dispatchable, makePayloadedAction, SfEpic } from './common';
+import { Dict } from './utils';
 
 export class EpicCollections<RootState = any>{
   private epics: SfEpic[] = [];

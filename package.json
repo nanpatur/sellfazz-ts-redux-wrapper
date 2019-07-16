@@ -28,8 +28,6 @@
     "redux-observable": "^1.0.0",
     "redux-thunk": "^2.3.0",
     "rxjs": "^6.5.2",
-    "rxjs-compat": "^6.5.2",
-    "sellfazz-ts-daos": "^0.2.2",
-    "sellfazz-ts-generic": "^0.1.26"
+    "rxjs-compat": "^6.5.2"
   }
 }

@@ -1,9 +1,9 @@
 import { ReduxActionCreators, ReducerGeneratorBase } from "./reducerGeneratorBase";
-import { Dict } from "sellfazz-ts-generic";
 import { ReducerPackage, SfEpic, PayloadedAction } from "../reducer";
 import { ReducersMapObject, Reducer, combineReducers, applyMiddleware, createStore, Store, Middleware, StoreEnhancer, StoreCreator } from "redux";
 import { combineEpics, createEpicMiddleware, EpicMiddleware } from "redux-observable";
 import thunk from "redux-thunk";
+import { Dict } from '../reducer/'
 
 export type ReduxActionCreatorsDict = Dict<ReduxActionCreators>;
 export type ReducerGeneratorsForState<State extends Dict<any>> = {
@@ -33,6 +33,11 @@ export interface KeyValue<T>{
 
 export interface IdentifiedModel {
   id?: string;
+}
+
+export interface BaseEntityModel {
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export function generateActionCreators<ActionCreators extends ReduxActionCreatorsDict>(generators: ReducerGeneratorsForActionCreators<ActionCreators>): ActionCreators {
